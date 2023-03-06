@@ -1,0 +1,32 @@
+# file options
+
+--exclude Tests/XCTestManifests.swift,Tests/BadConfig,Snapshots,Build,PluginTests
+
+# format options
+
+--binarygrouping none
+--commas always
+--decimalgrouping none
+--elseposition same-line
+--exponentcase lowercase
+--header ignore
+--ifdef indent
+--indent 2
+--maxwidth 120
+--ifdef outdent
+--indentcase false
+--octalgrouping none
+--operatorfunc spaced
+--self init-only
+--stripunusedargs unnamed-only
+--swiftversion 5.1
+--trimwhitespace always
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--xcodeindentation enabled
+
+# rules
+
+--enable isEmpty
+--enable blankLineAfterImports
